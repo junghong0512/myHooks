@@ -1,4 +1,4 @@
-export const useClick = onClick => {
+export const useHover = onClick => {
   if (typeof onClick !== "function") {
     return;
   }

@@ -1,7 +1,7 @@
 # Usage
 
 ```js
-const useClick = onClick => {
+const useHover = onClick => {
   if (typeof onClick !== "function") {
     return;
   }
@@ -21,7 +21,7 @@ const useClick = onClick => {
 
 const App = () => {
   const sayHello = () => console.log("SAY HELLO");
-  const title = useClick(sayHello);
+  const title = useHover(sayHello);
   return (
     <div className="app">
       <h1 ref={title}>Hello</h1>
