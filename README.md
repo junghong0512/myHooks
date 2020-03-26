@@ -8,7 +8,7 @@ Collection of React Hooks ready to install with NPM
 - [x] useClick
 - [ ] useFadeIn
 - [ ] useFullScreen
-- [ ] useHover
+- [x] useHover
 - [ ] useNetwork
 - [ ] useNotification
 - [ ] useScroll
