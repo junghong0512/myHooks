@@ -11,7 +11,7 @@ Collection of React Hooks ready to install with NPM
 - [x] useHover
 - [x] useNetwork
 - [ ] useNotification
-- [ ] useScroll
+- [x] useScroll
 - [x] useTabs
 - [x] usePreventLeave
 - [x] useConfirm
