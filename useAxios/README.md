@@ -1,7 +1,9 @@
-# Usage 
+# @hongshooks/use-axios
+
+# Usage
 
 ```js
-// Axios.js 
+// Axios.js
 import defaultAxios from "axios";
 import { useState, useEffect } from "react";
 
@@ -44,7 +46,6 @@ const useAxios = (opts, axiosInstance = defaultAxios) => {
 
 export default useAxios;
 
-
 // index.js
 import React, { useEffect, useRef, useState } from "react";
 import ReactDOM from "react-dom";
@@ -70,3 +71,4 @@ const App = () => {
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
+```

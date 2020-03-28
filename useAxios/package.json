@@ -1,0 +1,23 @@
+{
+  "name": "@hongshooks/use-axios",
+  "version": "1.0.0",
+  "description": "React Hook to fetching data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junghong91/myHooks.git"
+  },
+  "author": "Jung Hong <junghong0512@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junghong91/myHooks/issues"
+  },
+  "homepage": "https://github.com/junghong91/myHooks#readme",
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
