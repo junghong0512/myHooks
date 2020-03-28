@@ -1,3 +1,5 @@
+import { useEffect, useRef } from "react";
+
 export const useHover = onClick => {
   if (typeof onClick !== "function") {
     return;
